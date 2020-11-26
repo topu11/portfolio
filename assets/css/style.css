@@ -9,12 +9,13 @@ body {
 }
 
 .background {
-    background: #56ab2f;
+    background: #373B44;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #a8e063, #56ab2f);
+    background: linear-gradient(to right, #4286f4, #373B44);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 !important;
     width: 100vw;
 }
 
@@ -282,7 +283,7 @@ th {
 
 }
 
-                /* Footer section */
+/* Footer section */
 #footer {
     background: #1f4037;
     /* fallback for old browsers */
@@ -347,10 +348,13 @@ hr {
 }
 
 /* Responsive design  */
+/*
 
-
-@media screen and (max-width: 576px) {
-    body {
-        font-size: 12px;
+@media screen and (max-width: 400px) {
+    * {
+        font-size: 9px;
     }
-  }
+
+}
+  
+
