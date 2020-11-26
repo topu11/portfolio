@@ -351,9 +351,10 @@ hr {
 
 
 @media screen and (max-width: 576px) {
-     {
+   * {
         font-size: 12px;
     }
+
 
 }
   
