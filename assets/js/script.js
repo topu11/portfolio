@@ -83,7 +83,7 @@
             }, 150);
 
         }
-        $("#Technical").mouseover(function() {
+        $("#Technical").click(function() {
             bootstrap();
             html();
             JQUERY();
@@ -163,7 +163,7 @@
 
         }
 
-        $("#Technical").mouseover(function() {
+        $("#Technical").click(function() {
             PHP();
             Laravel();
             Mysql();
@@ -257,7 +257,7 @@
 
         }
 
-        $("#Technical").mouseover(function() {
+        $("#Technical").click(function() {
             C();
             Cpp();
             Java();
